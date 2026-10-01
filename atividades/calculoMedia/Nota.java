@@ -21,6 +21,8 @@ public class Nota {
         System.out.print("\nDigite a quarta nota: " );
         double nota4 = Double.parseDouble(scanner.nextLine());
 
+        scanner.close();
+
         // Cria a variavel em que vai ficar guardado o valor da média e chama o método de calculo da média
         double media = calculoMedia(nota1, nota2, nota3, nota4);
      
