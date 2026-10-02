@@ -27,6 +27,8 @@ public class ElseIff {
         else{
             System.out.println("Reprovado");
         }
+
+        scanner.close();
     }
     
 }

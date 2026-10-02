@@ -17,5 +17,6 @@ public class IfElse {
         else{
             System.out.println("Menor de idade");
         }
+        scanner.close();
     }
 }
