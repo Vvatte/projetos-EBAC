@@ -15,5 +15,7 @@ public class Tabuada {
             // Faz o print do numero digitado * o valor que esta no loop de 0...10 e mostra o resultado
             System.out.println(num + " X " + i + " = " + num*i);
         }
+
+        scanner.close();;
     }
 }
